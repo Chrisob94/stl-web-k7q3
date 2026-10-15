@@ -49,5 +49,20 @@ window.GAMES = [
     video: "",
     poster: "",
     accent: "#3ddbd0"
+  },
+  {
+    slug: "ember-roll",
+    name: "Ember Roll",
+    tagline: "[PLACEHOLDER: tagline]",
+    description: "[PLACEHOLDER: description]",
+    tags: ["Dice", "iOS"],
+    features: ["[PLACEHOLDER: feature]", "[PLACEHOLDER: feature]", "[PLACEHOLDER: feature]"],
+    icon: "",
+    appStoreUrl: "",
+    links: { website: "", testflight: "", support: "", privacy: "", x: "", instagram: "", tiktok: "", youtube: "", discord: "" },
+    screenshots: [],
+    video: "",
+    poster: "",
+    accent: "#e4572e"
   }
 ];
