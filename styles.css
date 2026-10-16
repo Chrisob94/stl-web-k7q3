@@ -54,8 +54,7 @@ footer{background:#1f211e;color:#b9bba9;padding:28px 0;font-size:.9rem}footer .w
 .glinks .none{font-size:.85rem;color:#9a9a88;border:1.5px dashed #cfc5a5;border-radius:999px;padding:5px 12px}
 .feat{margin:0 0 12px;padding-left:1.2em}.feat li{margin:2px 0}.feat li::marker{color:var(--accent)}
 .video{aspect-ratio:auto;background:none;border-radius:0;overflow:visible;margin-top:16px}
-.vphone{width:200px;max-width:200px}.vphone video{width:100%;height:100%;object-fit:cover;border-radius:22px;background:#000}
-.vphone .ph{background:var(--ink);color:#cfd1c2;font-size:.9rem}
+.vphone{width:200px;max-width:200px}.vphone img,.vphone .ph{width:100%;height:100%;object-fit:cover;border-radius:22px}
 .phone.vphone{transform:none}
 @media(max-width:860px){.video{display:flex;justify-content:center}.vphone{width:55%}}
 .game{grid-template-columns:.8fr 1.4fr}.shots{gap:12px;align-items:center}.shots .phone{width:24%}
