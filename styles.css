@@ -63,3 +63,12 @@ footer{background:#1f211e;color:#b9bba9;padding:28px 0;font-size:.9rem}footer .w
 @media(max-width:860px){.game{grid-template-columns:1fr}.shots{flex-wrap:wrap;gap:14px}.shots .phone,.phone.vphone{width:44%;max-width:none}.phone:nth-child(odd),.phone.vphone{transform:none}}
 .game.rev{grid-template-columns:1.4fr .8fr}.shots .phone{flex:none}.phone .ph{font-size:.78rem;padding:4px}
 @media(max-width:860px){.game.rev{grid-template-columns:1fr}}
+/* One public game: a 2×2 phone grid, top-aligned with the copy. */
+#games-list.single .game{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);align-items:start;border-bottom:none;padding-top:12px;padding-bottom:8px}
+#games-list.single .shots{display:grid;grid-template-columns:repeat(2,minmax(0,220px));gap:28px 18px;justify-content:center;justify-items:center;align-items:start;padding:6px}
+#games-list.single .shots .phone,#games-list.single .phone.vphone{width:100%;max-width:220px;transform:none}
+@media(max-width:860px){
+  #games-list.single .game{grid-template-columns:1fr;padding-top:6px;padding-bottom:4px}
+  #games-list.single .shots{grid-template-columns:repeat(2,minmax(0,220px));gap:18px 16px;padding:4px}
+  #games-list.single .shots .phone,#games-list.single .phone.vphone{width:100%;max-width:220px}
+}

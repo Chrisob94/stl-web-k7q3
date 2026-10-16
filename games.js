@@ -5,11 +5,15 @@
    titleScreen is a title-screen or main-menu image in the featured phone.
    Do not point it at gameplay, or at any image that shows an old name.
    Trailer files in the folder are kept on disk and are not shown.
+   hidden: true keeps the entry and its assets, and omits that game from
+   the showcase, nav anchors, headings, meta description, and the privacy
+   and terms name lists. Set hidden: false to show it again.
    ============================================================ */
 /* Copy from each game's promo pack README and screenshots (15 Oct 2026). */
 window.GAMES = [
   {
     slug: "ace-angles",
+    hidden: true,
     name: "Ace Angles",
     tagline: "Sink it in one, or lose a ball.",
     description: "Ace Angles is a one-shot paper minigolf game. Line up your one shot and sink it, or lose a ball. 110 hand-cut paper holes across eleven worlds, with a new trick every ten holes: slopes, portals, magnets and a prism that splits the ball.",
@@ -24,6 +28,7 @@ window.GAMES = [
   },
   {
     slug: "box-day",
+    hidden: true,
     name: "Box Day",
     tagline: "A new parcel every day!",
     description: "Box Day is a cosy parcel-pushing puzzle. Push, slide and tube your way through 160 solver-checked puzzles with Bram the post-mole, from the Depot to the Night Shift. No ads, no timers, unlimited undo.",
@@ -38,6 +43,7 @@ window.GAMES = [
   },
   {
     slug: "crosshue",
+    hidden: false,
     name: "Crosshue",
     tagline: "A crossword where the clues are colours.",
     description: "Crosshue is a colour crossword. Give every row and column one paint, and wherever two lines cross their paints mix. Match every swatch on the grid using logic alone, and match par for a Masterpiece.",
