@@ -33,7 +33,7 @@ h2{font-size:clamp(2rem,4vw,3rem)}
 .shots{display:flex;gap:16px;justify-content:center}
 .phone{position:relative;width:31%;max-width:190px;aspect-ratio:9/19.5;background:#111;border-radius:28px;padding:7px;box-shadow:0 20px 40px -18px rgba(0,0,0,.45)}
 .phone:nth-child(2){transform:translateY(-18px)}
-.phone img,.phone .ph{width:100%;height:100%;object-fit:cover;border-radius:22px}
+.phone img{display:block}.phone img,.phone .ph{width:100%;height:100%;object-fit:cover;border-radius:22px}
 .notch{position:absolute;top:13px;left:50%;transform:translateX(-50%);width:34%;height:12px;background:#111;border-radius:10px;z-index:2}
 .ph{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-weight:700;color:var(--muted);background:repeating-linear-gradient(45deg,#f2ead0,#f2ead0 10px,#ebe1c2 10px,#ebe1c2 20px);font-size:.85rem}
 .phone .ph{border:0}.ph small{font-weight:400}
