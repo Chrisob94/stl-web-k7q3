@@ -19,7 +19,7 @@ window.GAMES = [
     appStoreUrl: "",
     links: { website: "", testflight: "", support: "", privacy: "", x: "", instagram: "", tiktok: "", youtube: "", discord: "" },
     screenshots: ["1.jpg", "2.jpg", "3.jpg"],
-    titleScreen: "",
+    titleScreen: "ace-angles-01-home.jpg",
     accent: "#f5b324"
   },
   {
@@ -33,7 +33,7 @@ window.GAMES = [
     appStoreUrl: "",
     links: { website: "", testflight: "", support: "", privacy: "", x: "", instagram: "", tiktok: "", youtube: "", discord: "" },
     screenshots: ["1.jpg", "2.jpg", "3.jpg"],
-    titleScreen: "",
+    titleScreen: "box-day-01-title.jpg",
     accent: "#6b8e3a"
   },
   {
@@ -47,7 +47,7 @@ window.GAMES = [
     appStoreUrl: "",
     links: { website: "", testflight: "", support: "", privacy: "", x: "", instagram: "", tiktok: "", youtube: "", discord: "" },
     screenshots: ["1.jpg", "2.jpg", "3.jpg"],
-    titleScreen: "",
+    titleScreen: "crosshue-01-title.jpg",
     accent: "#3ddbd0"
   }
 ];
