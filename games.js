@@ -1,7 +1,10 @@
 /* ============================================================
    GAME DATA — edit this file only to update the showcase.
    Put media in assets/games/<slug>/ and list file names below.
-   Leave screenshots [] / video "" to show placeholder frames.
+   Leave screenshots [] / titleScreen "" to show placeholder frames.
+   titleScreen is a title-screen or main-menu image in the featured phone.
+   Do not point it at gameplay, or at any image that shows an old name.
+   Trailer files in the folder are kept on disk and are not shown.
    ============================================================ */
 /* Copy from each game's promo pack README and screenshots (15 Oct 2026). */
 window.GAMES = [
@@ -16,8 +19,7 @@ window.GAMES = [
     appStoreUrl: "",
     links: { website: "", testflight: "", support: "", privacy: "", x: "", instagram: "", tiktok: "", youtube: "", discord: "" },
     screenshots: ["1.jpg", "2.jpg", "3.jpg"],
-    video: "trailer.mp4",
-    poster: "poster.jpg",
+    titleScreen: "ace-angles-01-home.jpg",
     accent: "#f5b324"
   },
   {
@@ -31,8 +33,7 @@ window.GAMES = [
     appStoreUrl: "",
     links: { website: "", testflight: "", support: "", privacy: "", x: "", instagram: "", tiktok: "", youtube: "", discord: "" },
     screenshots: ["1.jpg", "2.jpg", "3.jpg"],
-    video: "trailer.mp4",
-    poster: "poster.jpg",
+    titleScreen: "box-day-01-title.jpg",
     accent: "#6b8e3a"
   },
   {
@@ -46,8 +47,7 @@ window.GAMES = [
     appStoreUrl: "",
     links: { website: "", testflight: "", support: "", privacy: "", x: "", instagram: "", tiktok: "", youtube: "", discord: "" },
     screenshots: ["1.jpg", "2.jpg", "3.jpg"],
-    video: "",
-    poster: "",
+    titleScreen: "crosshue-01-title.jpg",
     accent: "#3ddbd0"
   }
 ];
