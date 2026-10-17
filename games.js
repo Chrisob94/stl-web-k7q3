@@ -51,7 +51,7 @@ window.GAMES = [
     features: ["Every row and column gets one paint: mix to match every swatch", "Stamp mode, where overlapping inks mix", "Stuck? Hints explain the logic in plain words", "A new Daily every day, easy Monday to fiendish Sunday", "Patterns and labels for colour-blind players"],
     icon: "icon.png",
     appStoreUrl: "",
-    links: { website: "", testflight: "", support: "", privacy: "", x: "", instagram: "", tiktok: "", youtube: "", discord: "" },
+    links: { website: "", testflight: "", support: "/crosshue/support/", privacy: "/crosshue/privacy/", x: "", instagram: "", tiktok: "", youtube: "", discord: "" },
     screenshots: ["1.jpg", "2.jpg", "3.jpg"],
     titleScreen: "crosshue-01-title.jpg",
     accent: "#3ddbd0"
