@@ -1,20 +1,6 @@
 // Static Toad Labs: the only script on the site. Pages work without it.
-
-// LAUNCH DAY: set this to Crosshue's App Store link and every "coming soon" App Store button becomes a real one:
-//   const CROSSHUE_APP_STORE = "https://apps.apple.com/app/id6823928916";
-const CROSSHUE_APP_STORE = "";
-
-if (CROSSHUE_APP_STORE) {
-  document.querySelectorAll("[data-appstore]").forEach((el) => {
-    const a = document.createElement("a");
-    a.className = "btn store";
-    a.href = CROSSHUE_APP_STORE;
-    a.rel = "noopener";
-    a.textContent = "Download on the App Store";
-    el.replaceWith(a);
-  });
-  document.querySelectorAll("[data-appstore-note]").forEach((el) => { el.textContent = "Free on the App Store for iPhone and iPad."; });
-}
+// Crosshue pre-order links are in the HTML: https://apps.apple.com/app/id6823928916
+// On 9 November 2026, change those labels from "Pre-order on the App Store" to "Download on the App Store".
 
 document.querySelectorAll("[data-year]").forEach((el) => { el.textContent = new Date().getFullYear(); });
 
