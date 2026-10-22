@@ -85,8 +85,6 @@ p { margin: 0 0 1em; }
 .btn:active { transform: translate(2px, 2px); box-shadow: 2px 2px 0 var(--line); }
 .btn.alt { background: var(--sheet); color: var(--text); }
 .btn.store { background: #000; color: #fff; }
-.btn.store.soon { background: var(--sheet); color: var(--text); cursor: default; }
-.btn.store.soon:hover { transform: none; box-shadow: 4px 4px 0 var(--line); }
 .actions { display: flex; flex-wrap: wrap; gap: 14px; margin: 1.4em 0 .6em; }
 .fine { font: .9rem/1.5 var(--sans); color: var(--muted); }
 
